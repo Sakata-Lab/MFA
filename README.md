@@ -1,6 +1,9 @@
 # Multi-fiber array (MFA)-based photometry system
 This page provides resources for the publication on MFA development
 
+## system
+The folder contains an Excel file with a parts list to construct the optical system.
+
 ## grids
 The folder contains three .stl files and a Python-based FreeCAD macro.
 
