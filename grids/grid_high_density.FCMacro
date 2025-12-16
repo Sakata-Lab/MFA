@@ -1,0 +1,37 @@
+import FreeCAD as App
+import Part
+
+doc = App.newDocument("GridPlate")
+
+# Parameters
+width = 4      # mm
+height = 3     # mm
+thickness = 0.5  # mm
+hole_diameter = 0.09  # mm
+spacing = 0.3  # mm
+
+# Create base plate
+plate = Part.makeBox(width, height, thickness)
+
+# Create holes
+holes = []
+x_count = int(width / spacing)
+y_count = int(height / spacing)
+
+for i in range(x_count):
+    for j in range(y_count):
+        x = (i + 0.5) * spacing
+        y = (j + 0.5) * spacing
+        hole = Part.makeCylinder(hole_diameter / 2, thickness, App.Vector(x, y, 0))
+        holes.append(hole)
+
+# Cut holes from plate
+for hole in holes:
+    plate = plate.cut(hole)
+
+# Add to document
+part_obj = doc.addObject("Part::Feature", "Grid")
+part_obj.Shape = plate
+doc.recompute()
+
+print("✅ Grid plate created successfully!")
