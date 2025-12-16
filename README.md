@@ -10,7 +10,7 @@ There is a PDF file detailing MFA fabrication procedures.
 ## MFA image processing workflow
 The MATLAB LiveScript is the workflow for processing a .cxd file to analyse photometry signals.
 
-## Citation
+## citation
 If you find our work helpful, please use the following citations.
 ```
 Multi-fiber array-based mesoscopic photometry  in the mouse brain
