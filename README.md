@@ -15,6 +15,7 @@ The MATLAB LiveScript is the workflow for processing a .cxd file to analyse phot
 
 ## mfaCTpy: Python-based package for micro-CT image processing
 https://github.com/Sakata-Lab/mfaCTpy 
+
 This package allows:
 - file conversion from .dicom files to a .tif file
 - alignment to the midline
