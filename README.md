@@ -15,5 +15,5 @@ If you find our work helpful, please use the following citations.
 ```
 Multi-fiber array-based mesoscopic photometry  in the mouse brain
 Manil Bradai, Mirna Merkler, Gabriela Gil, Rebecca Davie, Shuzo Sakata
-
+https://github.com/Sakata-Lab/MFA_development
 ```
