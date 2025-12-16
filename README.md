@@ -13,6 +13,15 @@ There is a PDF file detailing MFA fabrication procedures.
 ## MFA image processing workflow
 The MATLAB LiveScript is the workflow for processing a .cxd file to analyse photometry signals.
 
+## mfaCTpy: Python-based package for micro-CT image processing
+https://github.com/Sakata-Lab/mfaCTpy 
+This package allows:
+- file conversion from .dicom files to a .tif file
+- alignment to the midline
+- registration to the Allen CCFv3
+- manual tracing of individual fibers
+
+
 ## citation
 If you find our work helpful, please use the following citations.
 ```
