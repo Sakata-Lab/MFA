@@ -26,6 +26,10 @@ This package allows:
 ## citation
 If you find our work helpful, please use the following citations.
 ```
+Multi-fiber array-based photometry system for multi-regional functional mapping in the mouse brain
+Manil Bradai, Mirna Merkler, Gabriela Gil, Rebecca Davie, Shuzo Sakata
+bioRxiv 2025.12.23.696162; doi: https://doi.org/10.64898/2025.12.23.696162
+
 Multi-fiber array-based mesoscopic photometry  in the mouse brain
 Manil Bradai, Mirna Merkler, Gabriela Gil, Rebecca Davie, Shuzo Sakata
 https://github.com/Sakata-Lab/MFA
